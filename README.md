@@ -1,3 +1,3 @@
-![370233676_668444532077499_4328557124313655358_n](https://github.com/Melqui42/mobile-authentication-screens/assets/123291514/fce6ad0c-1c24-4cf4-b455-55438fc95154)
+![373462206_1073291757354197_5843039485363047119_n](https://github.com/Melqui42/mobile-authentication-screens/assets/123291514/1509572c-a45b-4f54-afec-0e289dc3d497)
 ##
-![387487471_3224772437667346_5893676914813225094_n](https://github.com/Melqui42/mobile-authentication-screens/assets/123291514/48f030ff-3aaf-452c-aef5-8de206882762)
+![406927875_1305612556813539_5763850771133039749_n](https://github.com/Melqui42/mobile-authentication-screens/assets/123291514/b57c020b-ab7d-4308-88e6-c3bc5299c058)
