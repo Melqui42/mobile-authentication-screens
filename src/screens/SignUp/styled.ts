@@ -33,52 +33,26 @@ export const Center = styled.View`
   height: 100%;
   display: flex;
   position: absolute;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-`
-export const Top = styled.View`
-  width: 100%;
-  display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 `
 export const Title = styled.Text`
   color: #ffffff;
   font-weight: bold;
-  font-size: ${Math.floor(height * 0.05)}px;
+  text-align: center;
+  font-size: ${Math.floor(height * 0.045)}px;
 `
 export const Description = styled.Text`
   color: #ffffff;
   text-align: center;
   font-size: ${Math.floor(height * 0.025)}px;
+  margin-top: ${Math.floor(height * 0.015)}px;
 `
-export const CreateAccount = styled.View`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-`
-export const SignUpButton = styled.TouchableOpacity`
-  border-radius: 100px;
-  border: 3px solid #ffffff;
-  padding: ${Math.floor(height * 0.025)}px;
-`
-export const SignUpButtonText = styled.Text`
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: bold;
-`
-export const RememberMe = styled.View`
+export const AcceptTerms = styled.View`
   display: flex;
   align-items: center;
   flex-direction: row;
-`
-export const ForgotPassword = styled.TouchableOpacity``
-export const ForgotPasswordText = styled.Text`
-  color: #ff9400;
-  font-weight: bold;
 `
 export const CheckBox = styled.TouchableOpacity<{ checkColor: boolean }>`
   width: 20px;

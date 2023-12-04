@@ -1,9 +1,28 @@
-import { Dimensions } from 'react-native'
+import { StatusBar, Dimensions } from 'react-native'
 
 import styled from 'styled-components/native'
 
+const StatusBarHeight = StatusBar.currentHeight || 0
+
 const { height } = Dimensions.get('window')
 
+export const StyledStatusBar = styled(StatusBar).attrs({
+  barStyle: 'light-content',
+  translucent: true,
+  backgroundColor: '#664fff',
+})``
+export const Screen = styled.View`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #664fff;
+  padding-top: ${StatusBarHeight}px;
+`
+export const Container = styled.View`
+  width: 100%;
+  height: 100%;
+`
 export const Root = styled.View`
   width: 100%;
   height: 577px;
@@ -30,7 +49,11 @@ export const Title = styled.Text`
   font-size: 22px;
   font-weight: bold;
 `
-export const Content = styled.View``
+export const Content = styled.View`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+`
 export const Row = styled.View`
   width: 100%;
   display: flex;

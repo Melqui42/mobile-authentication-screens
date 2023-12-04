@@ -1,4 +1,5 @@
 import FormAction from './formAction'
+import FormContainer from './formContainer'
 import FormContent from './formContent'
 import FormHeader from './formHeader'
 import FormRoot from './formRoot'
@@ -12,6 +13,7 @@ const Form = {
   Row: FormRow,
   Action: FormAction,
   Header: FormHeader,
+  Container: FormContainer,
 }
 
 export default Form

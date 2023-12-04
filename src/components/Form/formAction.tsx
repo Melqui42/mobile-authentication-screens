@@ -1,14 +1,20 @@
 import { ReactNode } from 'react'
+import { TouchableOpacityProps } from 'react-native'
 
 import * as C from './styled'
 
-interface FormActionProps {
+interface FormActionProps extends TouchableOpacityProps {
   children: ReactNode
+  status: boolean
 }
 
-const FormAction: React.FC<FormActionProps> = ({ children, ...props }) => {
+const FormAction: React.FC<FormActionProps> = ({
+  children,
+  status,
+  ...props
+}) => {
   return (
-    <C.Action {...props}>
+    <C.Action {...props} style={{ opacity: status ? 0.8 : 1 }}>
       <C.ActionText>{children}</C.ActionText>
     </C.Action>
   )

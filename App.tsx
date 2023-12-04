@@ -9,8 +9,8 @@ import SignUp from '@screens/SignUp'
 const Stack = createStackNavigator()
 
 type StackNavigation = {
-  SignIn: undefined
-  SignUp: undefined
+  signIn: undefined
+  signUp: undefined
 }
 
 export type StackTypes = StackNavigationProp<StackNavigation>
@@ -18,16 +18,16 @@ export type StackTypes = StackNavigationProp<StackNavigation>
 const App: React.FC = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="SignUp">
+      <Stack.Navigator initialRouteName="signIn">
         <Stack.Screen
-          name="SignIn"
+          name="signIn"
           component={SignIn}
           options={{
             headerShown: false,
           }}
         />
         <Stack.Screen
-          name="SignUp"
+          name="signUp"
           component={SignUp}
           options={{
             headerShown: false,
